@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+.logo {
+  cursor: pointer;
+  font-size: 32px;
+  color: #8bfcff;
+}
+.nav_bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 18px;
+}
+button {
+  width: 159px;
+  height: 54px;
+  border-radius: 6px;
+  background-color: #8bfcff;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+}
+
+.cta :hover {
+  background-color: #00bfc6;
+  color: white;
+}
+
+.li {
+  color: white;
+}
+.li :hover {
+  color: #00bfc6;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.Hero_Banner {
+  height: 564px;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background-image: linear-gradient(#290045, #014668);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 100px;
+  gap: 24px;
+}
+.Banner_span {
+  font-size: 24px;
+  color: #a4a4a4;
+}
+.Banner_H1 {
+  font-size: 54px;
+  color: white;
+  margin: 0;
+}
+.Title {
+  display: flex;
+  flex-direction: column;
+  height: 384px;
+  width: 600px;
+  gap: 16px;
+  justify-content: space-between;
+}
+.banner_img {
+  width: 550px;
+  height: 384px;
+}
+.Unleashing_Action {
+  margin-top: 40px;
+  height: 460px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.Pc_Section {
+  display: flex;
+  flex-direction: column;
+  width: 618px;
+  gap: 32px;
+  margin: 16px;
+  justify-content: right;
+}
+.h1_01 {
+  font-size: 56px;
+  color: aqua;
+  font-weight: bold;
+  margin: 0;
+}
+.Unl_Action {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+.Unl_span {
+  font-size: 24px;
+  color: #c3c3c3;
+}
+.pc_coursor {
+  height: 452px;
+  width: 618px;
+}
+.Cta2 {
+  border: rgb(255, 255, 255) solid;
+  background-color: black;
+  color: rgb(0, 255, 255);
+}
+.Cta2:hover {
+  background-color: aqua;
+  color: black;
+  border: none;
+}
+.Discover_Exellence {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  gap: 32px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+.Discover {
+  font-size: 18px;
+  font-weight: 500;
+  color: aqua;
+  margin: 0;
+}
+.Feature {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+.Disc_Paragraph {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  color: rgb(170, 170, 170);
+  width: 600px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  gap: 24px;
+  padding: 16px;
+  background-color: #290045;
+  border-radius: 16px;
+}
+.cards_images {
+  width: 265px;
+  height: 300px;
+}
+.Title_gamaes {
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  margin: 0;
+}
+.Prices {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.Info_games {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding-top: 32px;
+  justify-content: center;
+}
+.card_cta {
+  font-size: 20px;
+  width: 149px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: rgb(255, 255, 255) solid 0.5px;
+  background-color: #290045;
+  color: white;
+}
+.card_cta:hover {
+  background-color: aqua;
+  color: black;
+  border: none;
+}
+.Level_up {
+  display: flex;
+  margin-top: 80px;
+  height: 460px;
+
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.Section {
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background-image: linear-gradient(#290045, #014668);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 100px;
+  gap: 24px;
+}
+.section_img {
+  width: 404px;
+  height: 372px;
+}
+.filter_Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: row;
+  gap: 50px;
+  height: 60px;
+}
+.Filter_paragraph {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.filter_Section :hover {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-color: #9747ff;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+}
+/* .Active_Paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80px;
+  background-color: #9747ff;
+  border-radius: 6px;
+  cursor: pointer;
+} */
+.underline {
+  height: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: aqua;
+  margin-top: 15px;
+}
+.imgs {
+  width: 404px;
+  height: 404px;
+}
+.Filter_images {
+  padding-top: 40px;
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 90px;
+  padding-right: 90px;
+  gap: 24px;
+  cursor: pointer;
+}
+.Filter_images :hover {
+  width: 390px;
+  height: 390px;
+}
+.Store_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: white;
+  gap: 24px;
+}
+.Footer_h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.Footer_span {
+  font-size: 18px;
+  font-weight: 700px;
+}
+.Footer_h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.Store_info {
+  display: flex;
+  flex-direction: column;
+}
+/* footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+} */
+
+.container12 {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(23, 23, 23);
+  margin: auto;
+}
+.footer {
+  background-color: white;
+  padding-top: 30px;
+}
+ul {
+  list-style: none;
+}
+.row {
+  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.footer_col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 15px;
+  gap: 12px;
+}
+h4 {
+  color: wheat;
+  margin: 0;
+  font-size: 28px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+li {
+  font-size: 18px;
+}
+.WinnerWe2 {
+  font-size: 42px;
+  margin: 0;
+  color: aqua;
+}
